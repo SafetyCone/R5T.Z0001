@@ -15,6 +15,10 @@ namespace R5T.Z0001
     [ValuesMarker]
     public partial interface IRegularExpressionPatterns : IValuesMarker
     {
+        /// <summary>
+        /// Any non-word character.
+        /// <para><value>\W</value></para>
+        /// </summary>
         // language=regex
         public string AllNonAlphanumeric => @"\W";
     }
